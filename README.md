@@ -4,11 +4,15 @@ This repository contains SQL projects that demonstrate my ability to clean, expl
 
 ## Projects
 
-### Layoffs Exploratory Data Analysis
+### Layoffs Data Cleaning and Exploratory Analysis
 
-This project uses SQL to explore and analyze a layoffs dataset. The analysis looks at layoff trends by company, industry, country, year, and month.
+This project uses SQL to clean and analyze a layoffs dataset. The project includes both data cleaning and exploratory data analysis.
 
 Skills demonstrated:
+- Data cleaning
+- Removing duplicates
+- Standardizing data
+- Handling null and blank values
 - SELECT statements
 - WHERE filtering
 - GROUP BY
