@@ -1,10 +1,13 @@
-# Layoffs Exploratory Data Analysis
+# Layoffs Data Cleaning and Exploratory Analysis
 
 ## Overview
 
-This project uses SQL to explore and analyze a layoffs dataset. The goal of this project was to identify layoff trends by company, industry, country, year, and month.
+This project uses SQL to clean and analyze a layoffs dataset. The goal of this project was to prepare the data for analysis, then explore layoff trends by company, industry, country, year, and month.
 
-The analysis focuses on finding the companies, industries, and locations most affected by layoffs, as well as tracking how layoffs changed over time.
+The project is split into two main parts:
+
+1. Data cleaning
+2. Exploratory data analysis
 
 ## Tools Used
 
@@ -14,6 +17,11 @@ The analysis focuses on finding the companies, industries, and locations most af
 
 ## SQL Skills Demonstrated
 
+- Creating staging tables
+- Removing duplicates
+- Standardizing text values
+- Handling null and blank values
+- Removing unnecessary columns
 - SELECT statements
 - WHERE filtering
 - GROUP BY
@@ -24,7 +32,14 @@ The analysis focuses on finding the companies, industries, and locations most af
 - Window functions
 - DENSE_RANK()
 - Rolling totals
-- Data analysis using real-world style business questions
+
+## Project Files
+
+- `layoffs_data_cleaning.sql`  
+  Contains SQL queries used to clean and prepare the dataset.
+
+- `layoffs_exploratory_analysis.sql`  
+  Contains SQL queries used to explore layoff trends and answer analysis questions.
 
 ## Questions Answered
 
@@ -38,26 +53,20 @@ This project answers questions such as:
 - How did layoffs change over time using rolling totals?
 - Which companies ranked highest for layoffs in each year?
 
-## Project Files
+## Cleaning Process
 
-- `layoffs_exploratory_analysis.sql`  
-  Contains SQL queries used to explore the dataset and analyze layoff trends.
+The cleaning portion includes:
 
-## Example Analysis Areas
-
-The SQL queries in this project explore:
-
-- Total layoffs by company
-- Total layoffs by industry
-- Total layoffs by country
-- Layoffs by year
-- Layoffs by month
-- Rolling total layoffs over time
-- Company rankings by year using window functions
+- Creating a staging table
+- Identifying and removing duplicate records
+- Standardizing company, industry, and country values
+- Converting date values into a usable format
+- Handling null and blank values
+- Removing columns that were no longer needed
 
 ## Key Takeaway
 
-This project helped me practice using SQL for exploratory data analysis. It shows my ability to write queries, summarize data, rank results, work with dates, and find patterns in a dataset.
+This project helped me practice a full SQL workflow: cleaning raw data, preparing it for analysis, writing exploratory queries, summarizing results, ranking data, and identifying trends over time.
 
 ## Status
 
